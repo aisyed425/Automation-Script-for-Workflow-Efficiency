@@ -1,0 +1,4 @@
+{
+  "download_path": "~/Downloads",
+  "ignore_extensions": ["ini", "sys", "tmp"]
+}
