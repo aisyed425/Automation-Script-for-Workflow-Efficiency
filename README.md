@@ -1,25 +1,20 @@
-# TripleDouble
- A web app that lets you build two starting lineups modern or all-time and simulate a series between them.
+# Workflow Automation Tool
 
-===========================================================================
-### Brainstorm
+A Python-based automation system that organizes files in a directory into structured folders based on file type. Built to simulate workflow optimization and process automation similar to industrial engineering systems.
 
-Concept & Planning
-Goal: Define the app’s purpose, features, and user experience.
-- Identify core features:
-- Team builder (modern/all-time)
-- 7-game series simulator
-- Game breakdowns and visuals
-- Decide on platforms (web-first, mobile later)
-- Sketch wireframes or use tools like Figma
-
+## Features
+- Automatically organizes files by extension
+- Configurable via JSON file
+- Logs all operations for traceability
+- Generates summary report (files moved, ignored, errors)
+- Measures execution time for performance tracking
 
 ## Tech Stack
+- Python
+- OS Module
+- JSON
+- Logging
 
-- **Frontend**: React.js + Tailwind CSS
-- **Backend**: Node.js + TypeScript
-- **Database**: PostgreSQL or Firebase
-- **Simulation Engine**: Python (scikit-learn) or JavaScript (TensorFlow.js)
-- **Hosting**: Vercel or Netlify
-
-Python for the simulation engine
+## How to Run
+```bash
+python main.py
